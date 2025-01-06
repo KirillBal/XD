@@ -1,8 +1,8 @@
-Print ("x y z w")
-for x in range (0,1):
- for y in range (0,1):
-  for z in range (0,1):
-   for w in range (0,1):
+print ("x y z w")
+for x in range (2):
+ for y in range (2):
+  for z in range (2):
+   for w in range (2):
     if (not(w) or z)and((not(y) or x) == (not(z) or y)):
-     print (x y z w)
+     print (x, y, z, w)
 
